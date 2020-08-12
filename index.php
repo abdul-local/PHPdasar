@@ -1,43 +1,36 @@
 <?php
-// Bolean pada php dasar
-// $a = true;
-// echo $a;
-//menampilkan isi data dan tipenya
+// Array pada php dasar
+// inittialiasi untuk tipe data Array
+// $a = array("sapi","ayam","kambing");
+// echo $a[0];
+// echo "<br>";
+// echo $a[1];
+// echo "<br>";
+// echo $a[2];
+// echo "<br>";
 // var_dump($a);
-// tipe data boolean sering digunakan untuk pengecekan sebuah kondisi
 
-// $a=10;
-// $b=15;
-// $c=$a+$b;
-// var_dump($c);
-//membandingkan variabel a dengan b
-//untuk statemen hasil yang salah
-// $a=10;
-// $b=15;
-// $c=$a > $b;
-// var_dump($c);
-//untuk statemen hasil yang bener
-// $a=10;
-// $b=15;
-// $c=$a < $b;
-// var_dump($c);
-// membandingkan apakah nilai a sama daengan nilia b
-// $a=10;
-// $b=15;
-// $c=$a == $b;
-// var_dump($c);
-//membandingkan a dengan nilai false dan b dengan nilai tru
-
-// $a=true;
-// $b=false;
-// $c=$a && $b;
-// var_dump($c); //hasilnya pasti fasle a=true;
-//menggunakan operator or
-$a=true;
-$b=false;
-$c=$a || $b;
-var_dump($c); //hasilnya pasti fas
-
+// bisa juga mengganti tulisaan array degan kurung siku
+$a =["sapi","ayam","kambing"];
+//menambahkan variabel baru
+$a[]="kucing";
+//menambahakan array dengan langsung idex ke 99
+// misalnya kita mau mengganti index ke nol dengan kerbau
+$a[0]="kerbau";
+$a[99]="anjing";
+echo $a[0];
+echo "<br>";
+echo $a[1];
+echo "<br>";
+echo $a[2];
+echo "<br>";
+echo $a[99];
+echo "<br>";
+// mencoba untuk menampilkan nilai yang tidak ada indexnya
+//echo $a[10]; // pasti mucul error
+// untuk memperbaikinya kita menggunakan tanda ?? kalau tidak ada bisa di lanjutkan lagi ke array selanjutnya
+echo $a[10] ?? ' ';
+var_dump($a);
 
 
 
