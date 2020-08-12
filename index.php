@@ -1,22 +1,43 @@
 <?php
-// string pada php dasar
-$name="Abdul";
-$pesan="Selamat Datang, ";
-$nama1="Abdul";
-$nama2="Hamzan";
-$nama_lengkap= $nama1.$nama2;
-$pesan1="hallow"." "."assalamu'alaikum";
-echo $nama_lengkap;
-echo " <br> ";
+// Bolean pada php dasar
+// $a = true;
+// echo $a;
+//menampilkan isi data dan tipenya
+// var_dump($a);
+// tipe data boolean sering digunakan untuk pengecekan sebuah kondisi
 
-echo $pesan1;
+// $a=10;
+// $b=15;
+// $c=$a+$b;
+// var_dump($c);
+//membandingkan variabel a dengan b
+//untuk statemen hasil yang salah
+// $a=10;
+// $b=15;
+// $c=$a > $b;
+// var_dump($c);
+//untuk statemen hasil yang bener
+// $a=10;
+// $b=15;
+// $c=$a < $b;
+// var_dump($c);
+// membandingkan apakah nilai a sama daengan nilia b
+// $a=10;
+// $b=15;
+// $c=$a == $b;
+// var_dump($c);
+//membandingkan a dengan nilai false dan b dengan nilai tru
 
+// $a=true;
+// $b=false;
+// $c=$a && $b;
+// var_dump($c); //hasilnya pasti fasle a=true;
+//menggunakan operator or
+$a=true;
+$b=false;
+$c=$a || $b;
+var_dump($c); //hasilnya pasti fas
 
-//echo ("$pesan  $name");
-// menggunakan dengan cara lain
-// echo $pesan;
-//menggabungkan dengan menggukan titik
-// echo $pesan . $name;
 
 
 
