@@ -1,33 +1,46 @@
 <?php
-$name=strtoupper("malik middin");
-$umur=16;
-function pesan(){
-    echo " Selamat Datang Siwa Codepolitan";
-}
-pesan();
+// jumlah
+// $a=10;
+// $b=20;
+// $c=$a+$b;
+// echo $c;
+// pembagian
+// $a=10;
+// $b=3;
+// $c=$a/$b;
+// echo $c;
+//perkalian
+// $a=10;
+// $b=3;
+// $c=$a*$b;
+// echo $c;
+//sisa pembagian
+// $a=10;
+// $b=3;
+// $c=$a%$b;
+// echo $c;
+//menggukan fungsi round untuk membulatakan bilangan
+// $a=10;
+// $b=3;
+// $c=$a/$b;
+// // echo round($c);
+// echo round($c,2);
+//menggukan increment
+// $a=10;
+// $a++;   
+// echo $a;
+// $a=10;
+// $a=$a+1;
+// echo $a;
+//menggunakan variabel dekrement
+// $a=10;
+// $a--;   
+// echo $a;
+$a=10;
+$a=$a-1;
+echo $a;
+
+
+
 
 ?>
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar PHP dasar</title>
-</head>
-<body>
-<h2>
-SELAMAT DATANG,
-<?php 
-echo $name;
-echo "<br>";
-echo $umur;
-?>
-
-</h2>
-    
-</body>
-</html>
