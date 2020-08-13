@@ -1,8 +1,9 @@
-<?php
-$nama = $_GET['nama'];
-$alamat=$_GET['alamat'];
-//var_dump($_GET);
 
+<?php
+if(!empty($_POST['proses'])){
+
+    var_dump($_POST);
+};
 ?>
 
 
@@ -11,17 +12,19 @@ $alamat=$_GET['alamat'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Query String GET</title>
+    <title>Parsing Array</title>
 </head>
 <body>
-<form action="">
-Nama:<input type="text" name="nama"><br>
-Alamat: <input type="text" name="alamat"><br>
-<input type="submit">
-</form>
-<h1>Selamat Datang,<?php echo $nama; ?></h1>
-<h2>Anda tinggal di <?php echo $alamat; ?></h2>
-<p>selamat belajar pemerograman PHP dasar</p>
-    
+    <form action="" method="post">
+    Nama: <input type="text" name="nama"><br><br>
+    Alamat: <textarea type="text" name="alamat"  col="200" rows="8"></textarea><br><br>
+    Program Studi: <select name="program" id="">
+    <option  value="TE">Teknik Elektro</option>
+    <option value="TI">Teknik Informatika</option>
+    <option value="TM">Teknik Mesi</option>
+    </select>
+    <br><br>
+    <input type="submit" name="proses">
+    </form>
 </body>
 </html>
