@@ -1,30 +1,22 @@
-
 <?php
-if(!empty($_POST['proses'])){
+// materi if else mengacu ke kondisi
+// $nama="abdul";
 
-    var_dump($_POST);
-};
-?>
+// ondisi jika di variabel nama itu sama dengan string abdul maka akan menampilkan tulisan
+// if($nama="abdul"){
+//     echo " selamat datang , abdul di codepolitan";
+// menggunakan sample yang lain
+$nilai =80;
 
+if($nilai>= 50){
+    echo "Anda Lulus Ujian dengan Nilai ".$nilai;
+}else{
+    echo " Maaf Anda belum Lulus Ujian dengan Nilai ".$nilai;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parsing Array</title>
-</head>
-<body>
-    <form action="" method="post">
-    Nama: <input type="text" name="nama"><br><br>
-    Alamat: <textarea type="text" name="alamat"  col="200" rows="8"></textarea><br><br>
-    Program Studi: <select name="program" id="">
-    <option  value="TE">Teknik Elektro</option>
-    <option value="TI">Teknik Informatika</option>
-    <option value="TM">Teknik Mesi</option>
-    </select>
-    <br><br>
-    <input type="submit" name="proses">
-    </form>
-</body>
-</html>
+// dengan mengguakan ini maka lebih rumit
+// if($nilai<50){
+//     echo " Maaf anda belum lulus ujian dengan Nilai ".$nilai;
+// }
+
+// ?>
