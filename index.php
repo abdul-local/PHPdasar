@@ -1,37 +1,50 @@
 <?php
-// Array pada php dasar
-// inittialiasi untuk tipe data Array
-// $a = array("sapi","ayam","kambing");
-// echo $a[0];
-// echo "<br>";
-// echo $a[1];
-// echo "<br>";
-// echo $a[2];
-// echo "<br>";
+// Array Asosiatif php dasar
+//cara pertama penulisan array
+// $a=["sapi","kerbau","kambing","domba"];
+//cara kedua penulisan array
+// $a[0]="sapi";
+// $a[1]="kambing";
+// $a[2]="domba";
 // var_dump($a);
+// echo "<br>";
+//dengan cara 1
+// $datadiri[] = "Abdul Hamzan";
+// $datadiri[] = "B";
+// $datadiri[] = "Bandung";
+// echo "<br>";
+// echo "Nama : ".$datadiri[0];
+// echo "<br>";
+// echo "Golongan darah : ".$datadiri[1];
+// echo "<br>";
+// echo "Alamat:".$datadiri[2];
+//dengan cara 2 yang du sebut dengan asosiatif array
+// $datadiri["nama"] ="Abdul Hamzan";
+// $datadiri["gol"] ="B";
+// $datadiri["Alamat"]="Bandung";
+// ==> khusus untuk mengarah ke nilai yang di inginkan
 
-// bisa juga mengganti tulisaan array degan kurung siku
-$a =["sapi","ayam","kambing"];
-//menambahkan variabel baru
-$a[]="kucing";
-//menambahakan array dengan langsung idex ke 99
-// misalnya kita mau mengganti index ke nol dengan kerbau
-$a[0]="kerbau";
-$a[99]="anjing";
-echo $a[0];
-echo "<br>";
-echo $a[1];
-echo "<br>";
-echo $a[2];
-echo "<br>";
-echo $a[99];
-echo "<br>";
-// mencoba untuk menampilkan nilai yang tidak ada indexnya
-//echo $a[10]; // pasti mucul error
-// untuk memperbaikinya kita menggunakan tanda ?? kalau tidak ada bisa di lanjutkan lagi ke array selanjutnya
-echo $a[10] ?? ' ';
-var_dump($a);
+$datadiri = [
+
+    "Nama"=>"Muhammad Abdulloh Hamzan",
+    "Golongan darah"=>"B",
+    "Alamat"=>"Bandung"
+];
+
+// echo "Nama:".$datadiri['nama'];
+// echo "<br>";
+// echo "Alamat:".$datadiri['Alamat'];
+// echo "<br>";
+// echo "Golongan darah:".$datadiri['gol'];
+
+echo $datadiri; 
 
 
+
+// var_dump($datadiri);
+
+
+
+// echo $a[0];
 
 ?>
