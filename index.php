@@ -1,37 +1,40 @@
-<?php
-// $nilai_tes = 85;
-// $wawancara = 'A';
+<?php 
+// $nilai ='A';
+// if($nilai=='A'){
+//     echo "Nilai Anda sangat memuaskan ";
 
-// bila test lebih dari 70
-// if ($nilai_tes >= 70){
-//     echo "Anda lulus";
-//     if($wawancara =='A'){
-//         echo "Predikat Anda sangat memuakan";
-//     }else if($wawancara =='B'){
-//         echo "predikat Anda memuaskan";
-//     }else{
-//         echo "predikat Anda cukup";
-//     }
+// }else if($nilai == 'B'){
+//     echo " Nilai Anda memuaskan ";
+// }else if ($nilai == 'C'){
+//     echo " Nilai Anda cukup ";
 // }else{
-//     echo " Maaf Anda belum lulus ";
+//     echo " mohon maaf nilai anda jelek ";
 // }
-$psikotes=85;
-$wawancara='lulus';
-$kesehatan='lulus';
-if($psikotes>=80){
-    echo "Anda lolo psikotest ";
-    if($wawancara ='lulus'){
-        echo "Selamat anda lolos di test Wawancara ";
-        if($kesehatan ='lulus'){
-            echo "Selamat Anda di terima jadi pegawai BUMN";
-        }else{
-            echo "Mohon maaf anda di pulangkan";
-        }
-    }else{
-        echo "mohon maaf anda tidak lolos";
-    }
-}else{
-    echo "Mohon maaf anda tidak lolos";
+
+$nilai = 'C';
+
+switch($nilai){
+    case 'A':
+        echo "nilai Anda sangat memuakan ";
+    break;
+    case 'B':
+        case 'B':
+            echo " Nilai Anda memuaskan";
+    break;
+    case 'C':
+        echo " Nilai Anda cukup  ";
+    break;
+    case 'D':
+        echo " Nilai Anda kurang ";
+    break;
+    case 'E':
+        echo "Nilai anda tidak lulus ";
+    break;
+    //mengakomodir nilai di luar drai cae yang di sediakan
+    default:
+        echo "Nilai anda tidak terdaptar ";
+    break;
+
 }
 
 ?>
