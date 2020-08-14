@@ -1,40 +1,14 @@
-<?php 
-// $nilai ='A';
-// if($nilai=='A'){
-//     echo "Nilai Anda sangat memuaskan ";
+<?php
+$warna ="Merah";
+$ukuran="XL";
 
-// }else if($nilai == 'B'){
-//     echo " Nilai Anda memuaskan ";
-// }else if ($nilai == 'C'){
-//     echo " Nilai Anda cukup ";
-// }else{
-//     echo " mohon maaf nilai anda jelek ";
-// }
-
-$nilai = 'C';
-
-switch($nilai){
-    case 'A':
-        echo "nilai Anda sangat memuakan ";
-    break;
-    case 'B':
-        case 'B':
-            echo " Nilai Anda memuaskan";
-    break;
-    case 'C':
-        echo " Nilai Anda cukup  ";
-    break;
-    case 'D':
-        echo " Nilai Anda kurang ";
-    break;
-    case 'E':
-        echo "Nilai anda tidak lulus ";
-    break;
-    //mengakomodir nilai di luar drai cae yang di sediakan
-    default:
-        echo "Nilai anda tidak terdaptar ";
-    break;
-
+$biaya =80000;
+$biaya_tambahan = 15000;
+// pengecekan untuk ukuran XL dengan warna kain merah, dikenakan biaya tambahan
+if($warna == 'Merah' && $ukuran =='XL'){
+    echo "Total harga: ".($biaya+$biaya_tambahan);
+}else{
+    echo "Total harga: ".$biaya;
 }
 
 ?>
