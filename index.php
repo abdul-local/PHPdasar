@@ -1,14 +1,15 @@
 <?php
-$warna ="Merah";
-$ukuran="XL";
+//ternary operator pada php dasar
+$nilai=75;
 
-$biaya =80000;
-$biaya_tambahan = 15000;
-// pengecekan untuk ukuran XL dengan warna kain merah, dikenakan biaya tambahan
-if($warna == 'Merah' && $ukuran =='XL'){
-    echo "Total harga: ".($biaya+$biaya_tambahan);
-}else{
-    echo "Total harga: ".$biaya;
-}
+// if($nilai>=80){
+//     echo "Anda Lulus ";
+// }else{
+//     echo " Anda tidak Lulus ";
+// }
+// bisa menggunakan printah yang lebih sederana lagi
+//ternary operator untuk penyederhanaan operator if else
+echo ($nilai >=80)? "Anda Lulus ujian" :"Anda tidak lulus ujian";
+
 
 ?>
