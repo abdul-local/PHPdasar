@@ -1,15 +1,13 @@
 <?php
-//ternary operator pada php dasar
-$nilai=75;
-
-// if($nilai>=80){
-//     echo "Anda Lulus ";
-// }else{
-//     echo " Anda tidak Lulus ";
+// for($i=0; $i<20; $i++){
+//     echo " $i. selamat datang"."<br>";
 // }
-// bisa menggunakan printah yang lebih sederana lagi
-//ternary operator untuk penyederhanaan operator if else
-echo ($nilai >=80)? "Anda Lulus ujian" :"Anda tidak lulus ujian";
+// misalnya saya mulai dari 20 ke 1
+// for($i=20; $i>=1; $i--){
+//     echo " $i. Selamat datang! di codepolitan "."<br>";
 
-
+// misalnya kita ingin mencetak keliapatan 2
+for($i=0; $i<=20; $i=$i+2){
+    echo "$i. Selamat datang! " ."<br>";
+}
 ?>
