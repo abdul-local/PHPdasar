@@ -1,0 +1,1 @@
+[{"nama":"abdul","goldarah":"B"},{"nama":"hamzan","goldarah":"AB"},{"nama":"rodi","goldarah":"A"},{"nama":"huswah","goldarah":"B+"}]
