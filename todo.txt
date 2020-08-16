@@ -1,0 +1,1 @@
+a:5:{i:0;a:2:{s:4:"todo";s:11:"Buah-buahan";s:6:"status";i:0;}i:1;a:2:{s:4:"todo";s:11:"Buah-buahan";s:6:"status";i:0;}i:2;a:2:{s:4:"todo";s:13:"Sayur-sayuran";s:6:"status";i:0;}i:3;a:2:{s:4:"todo";s:4:"apel";s:6:"status";i:0;}i:4;a:2:{s:4:"todo";s:8:"semangka";s:6:"status";i:0;}}
