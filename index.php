@@ -28,16 +28,12 @@ if(isset($_POST['todo'])){
 <button type"submit"> simpan</button>
 </form>
 <ul>
+<?php
+foreach($todos as $key=>$nilai): ?>
 <li>
-<input type="checkbox" name="todo1">Todo 1
+<input type="checkbox" name="todo">
+<label for=""><?php echo $nilai['todo'] ?></label>
 <a href="#">hapus</a>
 </li>
-<li>
-<input type="checkbox" name="todo2">Todo 2
-<a href="#">hapus</a>
-</li>
-<li>
-<input type="checkbox" name="todo3">Todo 3
-<a href="#">hapus</a>
-</li>
+<?php endforeach; ?>
 </ul>
